@@ -1,4 +1,6 @@
 OIBSIP
+---
+
 Welcome to my **Oasis Infobyte Internship**, where I have implemented multiple beginner-friendly yet practical **Python projects**. These applications showcase GUI interaction, automation, real-time data fetching, and logical computation using Python.
 
 ---
