@@ -26,7 +26,7 @@ def greet_user():
         talk("Good afternoon!")
     else:
         talk("Good evening!")
-    talk("Hi! I'm Naruto, your voice assistant. How can I help you today?")
+    talk("Hi! I'm Hinata, your voice assistant. How can I help you today?")
 
 # Listen to the user
 def listen():
@@ -72,10 +72,10 @@ def run_voice_assistant():
             info = wikipedia.summary(person, sentences=2)
             talk(info)
 
-        elif 'play' in command:
-            song = command.replace('play', '')
-            talk(f"Playing {song}")
-            pywhatkit.playonyt(song)
+        elif 'play song' in command:
+             talk("Playing your favorite song.")
+             pywhatkit.playonyt("https://www.youtube.com/watch?v=tSnT5hrDfvM&list=RDtSnT5hrDfvM&start_radio=1")
+
 
         elif 'open google' in command:
             webbrowser.open("https://www.google.com")
@@ -100,7 +100,7 @@ def run_voice_assistant():
             os.system("shutdown /r /t 1")
 
         elif 'your name' in command:
-            talk("My name is Naruto. Your smart assistant.")
+            talk("My name is Hinata. Your smart assistant.")
 
         elif 'exit' in command or 'bye' in command or 'stop' in command:
             talk("Goodbye! Have a great day!")
