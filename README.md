@@ -15,13 +15,14 @@ Welcome to my **Oasis Infobyte Internship**, where I have implemented multiple b
 
 ---
 
-## 📁 Project Structure
-OIBSIP/
+## 📁 Project Structure  
+OIBSIP/  
 ├── Chat-App/ → A GUI-based messaging simulation  
 ├── BMI-Calculator.py → Calculates Body Mass Index using user input  
 ├── PassWord-Generator.py → Generates random secure passwords  
 ├── Weather-App.py → Shows weather info using API  
 ├── voice-assistant.py → Listens and responds to user commands  
+---
 📱 Project Details
 
 ### 💬 Chat App
